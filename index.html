@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" lang="es">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <tittle>Bootstrap01</tittle>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a4a3ff8d11.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="row g-1">
+    <article class="container-fluid d-flex">
+      <article class="Navbar container-fluid d-flex">
+        <nav class="navbar d-inline-flex p-2 bg-light">
+          <div class="me-auto p-2">
+            <a class="navbar-brand" href="#">
+              <i class="fa-brands fa-instagram" class="d-inline-block align-text-top"></i>
+                Instagram
+            </a>
+          </div>
+          <div id="post" class="p-2  flex-row-reverse">
+            <button class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Create a new post
+            </button>
+          </div>
+          <div id="menus" class="flex-row-reverse">
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5">Create a new post</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Caption
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" color="green">Close</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+          <article>
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-regular fa-snowflake"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><button class="dropdown-item" type="button">Profile</button></li>
+                <li><button class="dropdown-item" type="button">Accesibility</button></li>
+                <li><button class="dropdown-item" type="button">Privacy and data</button></li>
+                <li><button class="dropdown-item" type="button" bacground-color="green">log out</button></li>
+              </ul>
+            </div>
+          </article>
+        </nav>
+      </article>
+    </article>
+    <ul class="nav nav-tabs align-items-center" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link" href="tabla1"><i class="fa-solid fa-caret-down"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#tabla2"><i class="fa-solid fa-ellipsis"></i></a>
+      </li>
+    </ul> 
+    <article class="container-fluid d-flex g-3 fade" class="tab-pane fade show active" id="tabla1" role="tabpanel" aria-labelledby="table1"></article>
+      <div class="container height: 100px">
+        <div class="row align-items-start">
+          <div class="col-4 col-md-4">
+            <img src="https://img.freepik.com/foto-gratis/ganchos-pared-clase_23-2148204796.jpg?ga=GA1.1.892991395.1731280763&semt=ais_hybrid" class="img-fluid" alt="image">
+          </div>
+          <div class="col-4 h-50">
+            <img src="https://img.freepik.com/foto-gratis/patito-jardin_181624-51100.jpg?t=st=1731779216~exp=1731782816~hmac=558d947c72f5759417d94da26e0a6f8154d3aa3550a02576cfa55aee8f4cc87c&w=740" class="img-fluid" alt="image">
+          </div>
+          <div class="col-4 h-4">
+            <img src="https://img.freepik.com/foto-gratis/mujer-escribiendo-idea-negocio_23-2148898697.jpg?ga=GA1.1.892991395.1731280763&semt=ais_hybrid"  class="img-fluid" alt="image">
+          </div>
+        </div>
+        <br/>
+        <div class="row align-items-center">
+          <div class="col">
+            <img src="https://images.pexels.com/photos/28965902/pexels-photo-28965902/free-photo-of-jardinero-en-el-jardin-de-girasoles-de-otono.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"  class="img-fluid" alt="image">
+          </div>
+          <div class="col">
+            <img src="https://img.freepik.com/foto-gratis/jovenes-gerentes-ceo-que-pasan-tiempo-sala-conferencias-manana-retrato-interior-equipo-especialistas-marketing-discutiendo-nuevos-objetivos-gran-oficina-moderna_197531-3846.jpg?ga=GA1.1.892991395.1731280763&semt=ais_hybrid" class="img-fluid" alt="image">
+          </div>
+          <div class="col">
+            <img src="https://img.freepik.com/free-photo/fun-party-with-dj_23-2151108159.jpg?ga=GA1.1.892991395.1731280763" class="img-fluid" alt="images">
+          </div>
+        </div>
+        <br>
+        <div class="row align-items-end">
+          <div class="col">
+            <img src="https://img.freepik.com/foto-gratis/vaciar-iglesia-nuestra-senora-siglo-xiii-lissewege-belgica_181624-50436.jpg?ga=GA1.1.892991395.1731280763&semt=ais_hybrid" class="img-fluid" alt="image">
+          </div>
+          <div class="col">
+            <img src="https://img.freepik.com/foto-gratis/mapache_649448-3855.jpg?ga=GA1.1.892991395.1731280763&semt=ais_hybrid" class="img-fluid" alt="image">
+          </div>
+          <div class="col">
+            <img src="https://img.freepik.com/foto-gratis/vista-borrosa-flores-naturales_23-2149511169.jpg?ga=GA1.1.892991395.1731280763&semt=ais_hybrid" class="img-fluid" alt="image">
+          </div>
+        </div>
+      </div>
+    </article>
+    <br>
+    <article class="container d-flex flex-column justify-content-center" style="max-width: 20rem;" id="tabla2"class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="table2">
+      <div class="card " style="width: 20rem;">
+        <h4 class="card-title">Class</h4>
+        <img src="https://img.freepik.com/foto-gratis/ganchos-pared-clase_23-2148204796.jpg?ga=GA1.1.892991395.1731280763&semt=ais_hybrid" class="card-img-top" alt="image">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <br>
+      <div class="card " style="width: 18rem;">
+        <h4 class="card-title">Donald Duck</h4>
+        <img src="https://img.freepik.com/foto-gratis/patito-jardin_181624-51100.jpg?t=st=1731779216~exp=1731782816~hmac=558d947c72f5759417d94da26e0a6f8154d3aa3550a02576cfa55aee8f4cc87c&w=740" class="card-img-top" alt="image">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <br>
+      <div class="card " style="width: 18rem;">
+        <h4 class="card-title">Library</h4>
+        <img src="https://img.freepik.com/foto-gratis/mujer-escribiendo-idea-negocio_23-2148898697.jpg?ga=GA1.1.892991395.1731280763&semt=ais_hybrid" class="card-img-top" alt="image">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <br>
+      <div class="card " style="width: 18rem;">
+        <h4 class="card-title">Garden</h4>
+        <img src="https://images.pexels.com/photos/28965902/pexels-photo-28965902/free-photo-of-jardinero-en-el-jardin-de-girasoles-de-otono.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" class="card-img-top" alt="image">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <br>
+      <div class="card " style="width: 18rem;">
+        <h4 class="card-title">Office</h4>
+        <img src="https://img.freepik.com/foto-gratis/jovenes-gerentes-ceo-que-pasan-tiempo-sala-conferencias-manana-retrato-interior-equipo-especialistas-marketing-discutiendo-nuevos-objetivos-gran-oficina-moderna_197531-3846.jpg?ga=GA1.1.892991395.1731280763&semt=ais_hybrid" class="card-img-top" alt="image">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <br>
+      <div class="card " style="width: 18rem;">
+        <h4 class="card-title">Music</h4>
+        <img src="https://img.freepik.com/free-photo/fun-party-with-dj_23-2151108159.jpg?ga=GA1.1.892991395.1731280763" class="card-img-top" alt="image">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <br>
+      <div class="card " style="width: 18rem;">
+        <h4 class="card-title">Church</h4>
+        <img src="https://img.freepik.com/foto-gratis/vaciar-iglesia-nuestra-senora-siglo-xiii-lissewege-belgica_181624-50436.jpg?ga=GA1.1.892991395.1731280763&semt=ais_hybrid" class="card-img-top" alt="image">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <br>
+      <div class="card " style="width: 18rem;">
+        <h4 class="card-title">Racoon</h4>
+        <img src="https://img.freepik.com/foto-gratis/mapache_649448-3855.jpg?ga=GA1.1.892991395.1731280763&semt=ais_hybrid" class="card-img-top" alt="image">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <br>
+      <div class="card " style="width: 18rem;">
+        <h4 class="card-title">Flower</h4>
+        <img src="https://img.freepik.com/foto-gratis/vista-borrosa-flores-naturales_23-2149511169.jpg?ga=GA1.1.892991395.1731280763&semt=ais_hybrid" class="card-img-top" alt="image">
+        <div class="card-body">
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </article>
+    
+    
+    
+    
+    
+    
+  </body>
+</html>
